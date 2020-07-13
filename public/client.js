@@ -24,7 +24,7 @@ sendMessageForm.onsubmit = (ev) => {
         data: messageInput.value
     };
     ws.send(JSON.stringify(event));
-    messageInput.value = '';
+    messageInput.value = ''; 
 };
 
 leaveGroupBtn.onclick = (ev) => {
